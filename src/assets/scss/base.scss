@@ -1,3 +1,34 @@
 
 
 /*--------------Homepage---*/
+body{
+    background-color: cornflowerblue;
+}
+
+/*--------------Login---*/
+
+#login-card{
+    padding: 4%;
+    background-color: white;
+    width: 20%;
+    border-radius: 23px;
+    margin: 25% auto 25% auto;
+
+    h2{
+        font-size: 34px;
+    }
+}
+
+.login-button-google{
+        background-color: #DB4437;
+        border-radius: 23px;
+        color: white;
+        padding: 7px;
+    }
+.login-button-facebook{
+        background-color: #3b5998;
+        border-radius: 23px;
+        padding: 7px;
+        color: white;
+        margin-top: 10px;
+    }
