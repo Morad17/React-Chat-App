@@ -1,7 +1,7 @@
-import firebase from "firebase/app"
+import firebase from 'firebase/app'
 import "firebase/auth"
 
-export const auth = firebase.initialiseApp({
+export const auth = firebase.initializeApp({
         apiKey: "AIzaSyBSkDD6g2MUjb4Kn029qO62p0CGQH5utcQ",
         authDomain: "react-chat-4a617.firebaseapp.com",
         projectId: "react-chat-4a617",

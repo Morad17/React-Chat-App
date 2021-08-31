@@ -11,10 +11,10 @@ const Login = () => {
             <div className="" id="login-card">
                 <h2>Welcome To The Chat!</h2>
 
-                <div className="login-button-google" onClick={() => auth.signInWithRedirect(new FirebaseError.auth.GoogleAuthProvider())}>
+                <div className="login-button-google" onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}>
                     <GoogleOutlined /> Sign In With Google
                 </div>
-                <div className="login-button-facebook" onClick={() => auth.signInWithRedirect(new FirebaseError.auth.FacebookAuthProvider())}>
+                <div className="login-button-facebook" onClick={() => auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())}>
                     <FacebookOutlined /> Sign In With Facebook
                 </div>
             </div>
